@@ -19,3 +19,22 @@
 
 /*d*/ for (x = 1; x <= 100; x++)
         printf("%.7f\n", (float) x/100 );
+
+/*e*/ for (x=999;  x >= 1; x-=2)
+        printf("%d\n", x);
+
+/*f*/ int counter;
+      counter = 2;
+
+      do {
+        if (counter%2 == 0)
+        printf("%d\n", counter);
+
+        counter += 2;
+      } while (counter <= 100);
+
+/*g*/ int total = 0;
+      int x;
+
+      for (x = 100; x <= 150; x++)
+         total += x;
